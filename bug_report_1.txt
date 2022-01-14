@@ -1,0 +1,12 @@
+Summary:[9] button it always is disable on panel of calculator however digits 9 can enter from keyboard
+Descriprion: When calculator is run button always is disable on panel of calculator however digits 9 can enter from keyboard. It is unfriendly behavior for users
+Actual result: [9] button is disable
+Expected result: [9] button is enable
+Reproduced on: Win 7
+Reproducibility: always
+For more details see attachment: https://yadi.sk/i/4IBhTrDF3VxXhR
+Steps to reproduce:    
+	1: Run calc.exe
+	2: Click [9] button
+Severity: minor
+Priority: low
