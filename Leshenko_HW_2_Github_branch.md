@@ -30,13 +30,13 @@
 
 9. В ветке CheckLists набросать структуру чек листа - 
 `git checkout CheckLists ; cat > cheklist_website.txt`
-	-ID
-	-Title
-	-Precondition
-	-Module
-	-Steps_to_reproduce
-	-Expected_result
-	-Status
+	+ ID
+	+ Title
+	+ Precondition
+	+ Module
+	+ Steps_to_reproduce
+	+ Expected_result
+	+ Status
 `Enter` `CTRL+D`
 
 10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist.txt" ; git push --set-upstream origin CheckLists`
