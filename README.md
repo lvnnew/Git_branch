@@ -10,18 +10,16 @@
 2. Запушить все ветки на внешний репозиторий - `git push --all`
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта - 
 `git checkout Bug_Reports ; cat > bug_report_1.txt`
-    - Summary:[9] button it always is disable on panel of calculator however digits 9 can enter from keyboard
-    - Descriprion: When calculator is run button always is disable on panel of calculator however digits 9 can enter from keyboard. It is unfriendly behavior for users
-    - Actual result: [9] button is disable
-    - Expected result: [9] button is enable
-    - Reproduced on: Win 7
-    - Reproducibility: always
-    - For more details see attachment: `https://yadi.sk/i/4IBhTrDF3VxXhR`
-    - Steps to reproduce:    
-	    - 1: Run calc.exe
-	    - 2: Click [9] button
-    - Severity: minor
-    - Priority: low
+	+ ID
+	+ Environment
+	+ Priority
+	+ Severity
+	+ Title
+	+ Module
+	+ Precondition
+	+ Steps_to_reproduce
+	+ Expected_result
+	+ Actual_result
 `Enter` `CTRL+D`
 
 5. Запушить структуру багрепорта на внешний репозиторий - `git add . ; git commit -m "add bug_report_1.txt" ; git push --set-upstream origin Bag_Reports`
