@@ -6,6 +6,7 @@
 - SQL - `git branch SQL`
 - Charles - `git branch Charles`
 - Mobile testing - `git branch Mobile_testing`
+- или `git branch Postman ; git branch Jmeter ; git branch CheckLists ; git branch Bug_Reports ; git branch SQL ; git branch Charles ; git branch Mobile_testing`
 
 2. Запушить все ветки на внешний репозиторий - `git push --all`
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта - 
