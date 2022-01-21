@@ -23,7 +23,7 @@
 	+ Actual_result
 `Enter` `CTRL+D`
 
-5. Запушить структуру багрепорта на внешний репозиторий - `git add . ; git commit -m "add bug_report_1.txt" ; git push --set-upstream origin Bag_Reports`
+5. Запушить структуру багрепорта на внешний репозиторий - `git add . ; git commit -m "add bug_report_1.txt" ; git push`
 6. Вмержить ветку Bug Reports в Main - `git checkout main ; git merge Bug_Reports`
 7. Запушить main на внешний репозиторий - `git add . ; git commit -m "merge Bug report to master" ; git push`
 
@@ -38,6 +38,6 @@
 	+ Status
 `Enter` `CTRL+D`
 
-10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist.txt" ; git push --set-upstream origin CheckLists`
+10. Запушить структуру на внешний репозиторий - ` git add . ; git commit -m "add checklist.txt" ; git push`
 11. На внешнем репозитории сделать Pull Request ветки CheckLists в main - Перейти на веб версию github в нужный репозиторий, изменить ветку на Checklists, нажать `Pull Request`
 12. Синхронизировать Внешнюю и Локальную ветки Main - `git checkout main ; git pull`
